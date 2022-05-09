@@ -8,6 +8,7 @@ import {
   Work,
 } from "./sections/index.js";
 import { Navbar } from "./components/index.js";
+import "../src/App.scss";
 
 const App = (props) => {
   return (
