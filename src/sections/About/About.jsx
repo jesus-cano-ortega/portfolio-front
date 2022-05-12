@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './About.scss';
 
 //Assets
@@ -6,10 +6,10 @@ import { Images } from '../../constants';
 import { motion } from 'framer-motion';
 
 const abouts = [
-    {title: 'Web Development', description: 'I am a good webdeveloper', imgUrl: Images.about01},
-    {title: 'Front Development', description: 'I am a good webdeveloper', imgUrl: Images.about02},
-    {title: 'Back Development', description: 'I am a good webdeveloper', imgUrl: Images.about03},
-    {title: 'MERN Development', description: 'I am a good webdeveloper', imgUrl: Images.about04}
+    {title: 'Front Development', description: 'I am a good webdeveloper', imgUrl: Images.about01},
+    {title: 'React Development', description: 'I am a good webdeveloper', imgUrl: Images.about02},
+    {title: 'Native Development', description: 'I am a good webdeveloper', imgUrl: Images.about03},
+    {title: 'Designer Development', description: 'I am a good webdeveloper', imgUrl: Images.about04}
 ];
 
 const About = () => {
