@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.scss';
+import {AppWrap} from '../../wrapper';
 
 //Assets
 import { Images } from '../../constants';
@@ -40,4 +41,4 @@ const About = () => {
     )
 }; 
 
-export default About; 
+export default AppWrap(About, 'about'); 

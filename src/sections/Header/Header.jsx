@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Header.scss";
+import {AppWrap} from '../../wrapper';
 
 //Assets
 import { Images } from '../../constants/index.js';
@@ -70,4 +71,4 @@ const Header = (props) => {
     );
 }
 
-export default Header;
+export default AppWrap(Header, 'home');
